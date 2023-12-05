@@ -7,5 +7,11 @@
 </head>
 <body>
   <h1>Olá Douglas</h1>
+
+  <form action="cadastro.php">
+    <input type="text" value="Nome" name="nome"><br>
+    <input type="text" value="email" name="email"><br>
+    <input type="submit" value="Enviar">
+  </form>
 </body>
 </html>
