@@ -5,8 +5,9 @@ $email = $_POST['email'];
 
 echo "<h1>Aqui estão os dados do formulário</h1>";
 
-echo "<h3>" + $nome + "<h3>"; 
-echo "<h3>" + $email + "<h3>"; 
+echo "<h3>$nome</h3>";
+echo "<h3>$email</h3>";
+
 
 ?>
 
