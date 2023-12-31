@@ -6,8 +6,12 @@
   <title>Olá Douglas</title>
 </head>
 <body>
-  <h1>Olá Douglas 2</h1>
+  <h1>Olá Douglas 3</h1>
+<?
+//last updates from 2023
+?>
 
+  
   <form action="cadastro.php" method="post">
     <input type="text" value="Nome" name="nome"><br>
     <input type="text" value="email" name="email"><br>
