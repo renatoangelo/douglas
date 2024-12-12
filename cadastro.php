@@ -8,13 +8,13 @@ echo "<h1>Aqui estão os dados do formulário</h1>";
 echo "<h3>$nome</h3>";
 echo "<h3>$email</h3>";
 
-$x = 0;
+$x = 1;
 
-while ($x <=10) {
+while ($x <=5) {
   echo "<hr>";
   echo $nome;
   echo "<br>$email";
-  echo "<BR><BR><BR><BR>";
+  echo "<BR><BR>Vez: ". $x . "<BR><BR>";
   $x++;
 }
 ?>
